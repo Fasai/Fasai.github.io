@@ -1,2 +1,51 @@
-body {color: red;}
-h1 {color:red;}
+/* Separate selectors for each element */
+h1 { color: #000000; }
+h2 { color: #ff0000; }
+h3 { color: #00ff00; }
+h4 { color: #0000ff; }
+h5 { color: #ffff00; }
+h6 { color: #00ffff; }
+
+/* 
+Color is declared in hexadecimal RGB value 
+
+#RRGGBB
+RR - Red (values from 00 to FF)
+GG - Green (values from 00 to FF)
+BB - Blue (values from 00 to FF)
+
+so: 
+#000000 - black
+#ffffff - white
+
+#ff0000 - red
+#00ff00 - green
+#0000ff - blue
+
+You can use also short values:
+#RGB
+R - Red (values from 0 to F)
+G - Green (values from 0 to F)
+B - Blue (values from 0 to F)
+
+#fff (white) = #fff
+#000 (black) = #000
+
+#f00 - red
+#0f0 - green
+#00f - blue
+
+*/
+
+p { color: #ff00ff; }
+a { }
+span {}
+
+/* Group*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { background: #d3d3d3; }
+
